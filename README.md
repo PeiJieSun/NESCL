@@ -1,5 +1,6 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/neighborhood-enhanced-supervised-contrastive/collaborative-filtering-on-yelp2018)](https://paperswithcode.com/sota/collaborative-filtering-on-yelp2018?p=neighborhood-enhanced-supervised-contrastive)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/neighborhood-enhanced-supervised-contrastive/collaborative-filtering-on-gowalla)](https://paperswithcode.com/sota/collaborative-filtering-on-gowalla?p=neighborhood-enhanced-supervised-contrastive)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/neighborhood-enhanced-supervised-contrastive/recommendation-systems-on-gowalla)](https://paperswithcode.com/sota/recommendation-systems-on-gowalla?p=neighborhood-enhanced-supervised-contrastive)
+
 
 
 1. The code repository for the paper:  **Peijie Sun** , Le Wu, Kun Zhang, Xiangzhi Chen, Meng Wang.  **Neighborhood-Enhanced Supervised Contrastive Learning for Collaborative Filtering**  (Accepted by TKDE).
