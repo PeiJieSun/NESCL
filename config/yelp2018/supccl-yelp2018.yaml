@@ -1,0 +1,53 @@
+ssl_reg: 0.3
+ssl_ratio: 0.3
+ssl_temp: 0.1
+# ssl_mode: 0-user side, 1-item side, 2-both side, 3-merge
+ssl_mode: 3
+learning_rate: 0.001
+n_layers: 2
+reg_weight: 0.0001
+# aug_type: 0-node dropout, 1-edge dropout, 2-random walk
+aug_type: 0
+
+sub_graph_pool: 300
+ssl_strategy: 9
+# positive_cl_type: 1-'out', 2='in'
+positive_cl_type: 2
+k: 15
+
+lightgcn_flag: False
+random_strategy: True 
+augmentation: True
+early_stop: False
+add_initial_embedding: False
+#set_batch_nodes: False
+#add_more_neighbors: False
+pairwise_loss: True
+interacted_neighbors: True
+similar_user_neighbors: True
+similar_item_neighbors: True
+different_view: True
+
+different_view_weight: 1.0
+interacted_neighbors_weight: 1.0
+sample_item_weight: 1.0
+sample_user_weight: 1.0
+
+sample_item_weight_flag: False
+sample_user_weight_flag: False
+
+supcon_flag: False
+
+#renormalize_similarity: True
+prob_sampling: False
+
+# Recall@20, NDCG@20
+valid_metric: NDCG@20
+
+epochs: 300
+train_data_step: 4096
+val_data_step: 256
+test_data_step: 256
+
+neg_sampling:
+    uniform: 1

@@ -1,0 +1,58 @@
+{
+    "ssl_mode": {
+      "_type": "choice",
+      "_value": [0, 1, 2]
+    },
+    "ssl_ratio": {
+      "_type": "choice",
+      "_value": [0.1, 0.5]
+    },
+    "ssl_reg": {
+      "_type": "choice",
+      "_value": [0.1, 0.5]
+    },
+    "aug_type": {
+      "_type": "choice",
+      "_value": [0, 2]
+    },
+    "epsilon": {
+      "_type": "choice",
+      "_value": [0.2, 0.5]
+    },
+    "sinkhorn_iterations": {
+      "_type": "choice",
+      "_value": [1, 3]
+    },
+    "temperature": {
+      "_type": "choice",
+      "_value": [0.2, 0.5]
+    },
+    "normalize": {
+      "_type": "choice",
+      "_value": [0, 1]
+    },
+    "unique_flag": {
+      "_type": "choice",
+      "_value": [0, 1]
+    },
+    "cluster_prediction_flag": {
+      "_type": "choice",
+      "_value": [1]
+    },
+    "feat_dim": {
+      "_type": "choice",
+      "_value": [32, 64, 128]
+    },
+    "hidden_mlp": {
+      "_type": "choice",
+      "_value": [64, 128]
+    },
+    "nmb_prototypes": {
+      "_type": "choice",
+      "_value": [8, 16, 32]
+    },
+    "queue_length": {
+      "_type": "choice",
+      "_value": [2048, 4096]
+    }
+  }

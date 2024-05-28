@@ -1,0 +1,1 @@
+from recbole.model.external_recommender.slim import SLIM

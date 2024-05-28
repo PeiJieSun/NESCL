@@ -1,0 +1,6 @@
+ssl_temp:0.1
+Valid result:
+recall@10 : 0.2183    mrr@10 : 0.3917    ndcg@10 : 0.2361    hit@10 : 0.7561    precision@10 : 0.1606    gauc : 0.9168    
+Test result:
+recall@10 : 0.2572    mrr@10 : 0.4908    ndcg@10 : 0.3    hit@10 : 0.7975    precision@10 : 0.205    gauc : 0.9231    
+

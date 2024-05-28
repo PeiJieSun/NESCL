@@ -1,0 +1,22 @@
+{
+    "ssl_temp": {
+      "_type": "choice",
+      "_value": [0.1, 0.2, 0.5]
+    },
+    "ssl_reg": {
+      "_type": "choice",
+      "_value": [0.001, 0.01, 0.02, 0.05, 0.1, 0.2, 0.5]
+    },
+    "ssl_ratio": {
+      "_type": "choice",
+      "_value": [0.1, 0.2, 0.3, 0.4, 0.5]
+    },
+    "ssl_mode": {
+      "_type": "choice",
+      "_value": [0, 1, 2, 3]
+    },
+    "aug_type": {
+      "_type": "choice",
+      "_value": [0, 1, 2]
+    }
+  }

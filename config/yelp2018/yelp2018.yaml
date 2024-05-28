@@ -1,0 +1,41 @@
+# dataset config
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: item_id
+load_col:
+    inter: [user_id, item_id]
+
+# model config
+embedding_size: 64
+
+# Training and evaluation config
+epochs: 500
+train_batch_size: 4096
+eval_batch_size: 4096
+neg_sampling:
+    uniform: 1
+eval_args:
+    group_by: user
+    order: RO
+    split: {'RS': [0.8,0.1,0.1]}
+    mode: full
+metrics: ['Recall', 'MRR', 'NDCG', 'Hit', 'Precision']
+topk: 20
+valid_metric: Recall@20
+metric_decimal_place: 4
+
+#k: 100
+#method: item
+#enable_average_bias: False
+#renormalize_similarity: False
+
+#save_dataset: True
+#save_dataloaders: True
+
+seed: 2020
+# dataloader_file for tuning hyper-parameters
+#dataloader_file: '/home/peijie/task/RecBole/saved_data/ml-1m-for-BPR-dataloader.pth'
+
+# following parameters are set for NNI hyper-parameters tuning
+#num_aug: 2
+#n_layers: 4
+#reg_weight: 0.01

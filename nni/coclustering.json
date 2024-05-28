@@ -1,0 +1,14 @@
+{
+    "nmb_prototypes":{"_type":"choice","_value":[8, 16]},
+    "co_reg":{"_type":"choice","_value":[0.0001,0.002,0.02,0.1]},
+    "temp_1":{"_type":"choice","_value":[0.1,0.2,0.5]},
+    "temp_2":{"_type":"choice","_value":[0.1,0.2,0.5]},
+    "beta_1":{"_type":"choice","_value":[0.01,0.05,0.5,1,5]},
+    "beta_2":{"_type":"choice","_value":[2,4]},
+    "learning_rate":{"_type":"choice","_value":[0.001, 0.01]},
+    "reg_weight":{"_type":"choice","_value":[0.001, 0.01]},
+    "drop_flag":{"_type":"choice","_value":[0, 1]},
+    "proto_gap":{"_type":"choice","_value":[0.5, 0.75, 0.9]},
+    "min_rating_ratio":{"_type":"choice","_value":[1, 2, 3]},
+    "ssl_ratio": {"_type": "choice","_value": [0.1, 0.2, 0.3, 0.4, 0.5]}
+}

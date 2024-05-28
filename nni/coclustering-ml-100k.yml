@@ -1,0 +1,18 @@
+experimentName: ml-100k-coclustering
+trialConcurrency: 8
+trialGpuNumber: 1
+maxExperimentDuration: 100h
+maxTrialNumber: 20000
+useAnnotation: false
+searchSpaceFile: /home/peijie/task/RecBole/nni/coclustering.json
+experimentWorkingDirectory: /home/peijie/task/RecBole/nni_log
+trialCommand: python /home/peijie/task/RecBole/run_trial_coclustering_ml_100k.py
+trialCodeDirectory: /home/peijie/task/RecBole
+tuner:
+  name: TPE
+  classArgs:
+    optimize_mode: maximize
+trainingService:
+  platform: local
+  useActiveGpu: True
+  maxTrialNumberPerGpu: 4
