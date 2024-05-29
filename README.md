@@ -25,3 +25,5 @@
 `
 
 7. The generated log files saved in `log` directory, and the temporal model parameters can saved in the `saved` directory. 
+
+If you are interested in my work, you can also pay attention to my personal website: https://www.peijiesun.com
