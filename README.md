@@ -27,3 +27,14 @@
 7. The generated log files saved in `log` directory, and the temporal model parameters can saved in the `saved` directory. 
 
 If you are interested in my work, you can also pay attention to my personal website: https://www.peijiesun.com
+
+You can cite our paper with:
+```
+@article{sun2023neighborhood,
+  title={Neighborhood-Enhanced Supervised Contrastive Learning for Collaborative Filtering},
+  author={Sun, Peijie and Wu, Le and Zhang, Kun and Chen, Xiangzhi and Wang, Meng},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  year={2023},
+  publisher={IEEE}
+}
+```
