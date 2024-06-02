@@ -5,7 +5,7 @@
 # The Performance of All Models on the Gowalla Dataset
 | Rank | Model     | Recall@20 | NDCG@20 | Paper                                                                          | Year |
 |------|-----------|-----------|---------|--------------------------------------------------------------------------------|------|
-| 1    | NESCL     | 0.1917    | 0.1617  | Neighborhood-Enhanced Supervised Contrastive Learning for Collaborative Filtering | 2024 |
+| 1    | **NESCL**     | 0.1917    | 0.1617  | Neighborhood-Enhanced Supervised Contrastive Learning for Collaborative Filtering | 2024 |
 | 2    | BSPM-EM   | 0.192     | 0.1597  | Blurring-Sharpening Process Models for Collaborative Filtering                  | 2022 |
 | 3    | BSPM-LM   | 0.1901    | 0.157   | Blurring-Sharpening Process Models for Collaborative Filtering                  | 2022 |
 | 4    | LT-OCF    | 0.1875    | 0.1574  | LT-OCF: Learnable-Time ODE-based Collaborative Filtering                        | 2021 |
