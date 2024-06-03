@@ -17,7 +17,7 @@
 | 10   | NGCF      | 0.157     |         | Neural Graph Collaborative Filtering                                           | 2019 |
 
 
-1. The code repository for the paper:  **Peijie Sun** , Le Wu, Kun Zhang, Xiangzhi Chen, Meng Wang.  **Neighborhood-Enhanced Supervised Contrastive Learning for Collaborative Filtering**  (Accepted by TKDE).
+1. The code repository for the paper:  **Peijie Sun** , Le Wu, Kun Zhang, Xiangzhi Chen, Meng Wang.  **[Neighborhood-Enhanced Supervised Contrastive Learning for Collaborative Filtering](https://arxiv.org/abs/2402.11523)**  (Accepted by TKDE).
 
 2. The dataset can refer to following links([Baidu Netdisk](https://pan.baidu.com/s/1HXFrGavcvGzHzbkIQP_v3w?pwd=ct9x), [Google Drive](https://drive.google.com/drive/folders/1coHwFat2b4prNPQ4Q8QHznbg8rsi6-P1?usp=sharing)). 
 
